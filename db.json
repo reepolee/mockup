@@ -1,11 +1,261 @@
 {
-  "posts": [
+  "brands": [
     {
       "id": 1,
-      "title": "hello"
+      "name": "Bucimap",
+      "code": "bucimap",
+      "sort_number": 1,
+      "logo": null,
+      "media": [
+        
+      ]
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "shippings": [
+    {
+      "id": 1,
+      "name": "Brezplačna dostava",
+      "min_weight": 99999,
+      "max_weight": 99999,
+      "delivery_text": "Pošta Slovenije",
+      "delivery_time": "Dostava v treh delovnih dneh",
+      "net_price": "0.00",
+      "tax_percent": 0,
+      "tax_amount": "0.00",
+      "retail_price": "0.00"
+    },
+    {
+      "id": 2,
+      "name": "Priporočena pošiljka do 100g",
+      "min_weight": 0,
+      "max_weight": 100,
+      "delivery_text": "Pošta Slovenije",
+      "delivery_time": "Dostava v treh delovnih dneh",
+      "net_price": "1.94",
+      "tax_percent": 0,
+      "tax_amount": "0.00",
+      "retail_price": "1.94"
+    },
+    {
+      "id": 3,
+      "name": "Priporočena pošiljka do 500g",
+      "min_weight": 101,
+      "max_weight": 500,
+      "delivery_text": "Pošta Slovenije",
+      "delivery_time": "Dostava v treh delovnih dneh",
+      "net_price": "2.40",
+      "tax_percent": 0,
+      "tax_amount": "0.00",
+      "retail_price": "2.40"
+    },
+    {
+      "id": 4,
+      "name": "Paket",
+      "min_weight": 501,
+      "max_weight": 2000,
+      "delivery_text": "Pošta Slovenije",
+      "delivery_time": "Dostava v treh delovnih dneh",
+      "net_price": "4.40",
+      "tax_percent": 0,
+      "tax_amount": "0.00",
+      "retail_price": "4.40"
+    }
+  ],
+  "settings": [
+    {
+      "id": 1,
+      "code": "free-shipping-above-amount",
+      "sort_number": 101,
+      "name": "Dostava je brezplačna nad vrednostjo nakupa",
+      "value": "40",
+      "html": null
+    },
+    {
+      "id": 2,
+      "code": "paypal-testers",
+      "sort_number": 601,
+      "name": "Paypal testerji",
+      "value": "ales@vaupotic.eu ales@reepolee.com aljaz@reepolee.com",
+      "html": "<p>To so emaili ljudi, ki testirajo plačilno metodo PayPal</p>"
+    }
+  ],
+  "snippets": [
+    
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Bucimap",
+      "slug": "bucimaps",
+      "sort_number": 1,
+      "is_default": 0,
+      "description": null,
+      "is_visible": 1,
+      "photo": {
+        "id": 1,
+        "model_type": "App\\ProductCategory",
+        "model_id": 1,
+        "collection_name": "photo",
+        "name": "5f72e45d35525_006-bucimap-popotnik-004",
+        "file_name": "5f72e45d35525_006-bucimap-popotnik-004.jpg",
+        "mime_type": "image/jpeg",
+        "disk": "public",
+        "size": 58326,
+        "manipulations": [
+          
+        ],
+        "custom_properties": {
+          "generated_conversions": {
+            "card": true,
+            "home": true,
+            "thumb": true,
+            "mobile": true,
+            "home-webp": true
+          }
+        },
+        "responsive_images": [
+          
+        ],
+        "order_column": 1,
+        "created_at": "2020-09-29T07:38:14.000000Z",
+        "updated_at": "2020-09-29T07:38:14.000000Z",
+        "url": "/storage/1/5f72e45d35525_006-bucimap-popotnik-004.jpg",
+        "thumbnail": "/storage/1/conversions/5f72e45d35525_006-bucimap-popotnik-004-thumb.jpg",
+        "mobile": "/storage/1/conversions/5f72e45d35525_006-bucimap-popotnik-004-mobile.jpg",
+        "home": "/storage/1/conversions/5f72e45d35525_006-bucimap-popotnik-004-home.jpg",
+        "home_webp": "/storage/1/conversions/5f72e45d35525_006-bucimap-popotnik-004-home-webp.webp",
+        "card": "/storage/1/conversions/5f72e45d35525_006-bucimap-popotnik-004-card.jpg"
+      }
+    }
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "code": "bucimap",
+      "slug": "bucimap",
+      "name": "Bucimap",
+      "sort_number": 1,
+      "is_active": 1,
+      "description": null,
+      "photo": {
+        "id": 4,
+        "model_type": "App\\ProductGroup",
+        "model_id": 1,
+        "collection_name": "photo",
+        "name": "5f72e65d9a68b_006-bucimap-popotnik-004",
+        "file_name": "5f72e65d9a68b_006-bucimap-popotnik-004.jpg",
+        "mime_type": "image/jpeg",
+        "disk": "public",
+        "size": 58326,
+        "manipulations": [
+          
+        ],
+        "custom_properties": {
+          "generated_conversions": {
+            "card": true,
+            "thumb": true
+          }
+        },
+        "responsive_images": [
+          
+        ],
+        "order_column": 4,
+        "created_at": "2020-09-29T07:46:41.000000Z",
+        "updated_at": "2020-09-29T07:46:41.000000Z",
+        "url": "/storage/4/5f72e65d9a68b_006-bucimap-popotnik-004.jpg",
+        "thumbnail": "/storage/4/conversions/5f72e65d9a68b_006-bucimap-popotnik-004-thumb.jpg",
+        "card": "/storage/4/conversions/5f72e65d9a68b_006-bucimap-popotnik-004-card.jpg"
+      },
+      "media": [
+        {
+          "id": 4,
+          "model_type": "App\\ProductGroup",
+          "model_id": 1,
+          "collection_name": "photo",
+          "name": "5f72e65d9a68b_006-bucimap-popotnik-004",
+          "file_name": "5f72e65d9a68b_006-bucimap-popotnik-004.jpg",
+          "mime_type": "image/jpeg",
+          "disk": "public",
+          "size": 58326,
+          "manipulations": [
+            
+          ],
+          "custom_properties": {
+            "generated_conversions": {
+              "card": true,
+              "thumb": true
+            }
+          },
+          "responsive_images": [
+            
+          ],
+          "order_column": 4,
+          "created_at": "2020-09-29T07:46:41.000000Z",
+          "updated_at": "2020-09-29T07:46:41.000000Z",
+          "url": "/storage/4/5f72e65d9a68b_006-bucimap-popotnik-004.jpg",
+          "thumbnail": "/storage/4/conversions/5f72e65d9a68b_006-bucimap-popotnik-004-thumb.jpg",
+          "card": "/storage/4/conversions/5f72e65d9a68b_006-bucimap-popotnik-004-card.jpg"
+        }
+      ]
+    }
+  ],
+  "paymentMethods": [
+    {
+      "id": 1,
+      "name": "Bančno nakazilo na TRR",
+      "description": "Plačati želim preko spletne banke ali z UPN nalogom",
+      "instructions": "Prejemnik plačila:<br>\r\n<br>\r\nAleš Vaupotič s.p.<br>\r\nNebčeva 44<br>\r\n1921 Škofljica<br>\r\n<br>\r\nBIC banke Delavska hranilnica:<br>\r\n<b>HDELSI22</b><br>\r\n<br>\r\nštevilka transakcijskega računa IBAN<br>\r\n<b>SI56 6100 0002 2512 010</b><br>",
+      "closing_text": null,
+      "is_active": 1,
+      "needs_reference": 1,
+      "is_paid_later": 1,
+      "sort_number": 101
+    }
+  ],
+  "tags": [
+    
+  ],
+  "coupons": [
+    {
+      "id": 1,
+      "valid_from": "2020-12-01T00:00:00",
+      "valid_to": "2020-12-23T22:59:59",
+      "slug": "bozic20",
+      "value": "20",
+      "type": "%",
+      "applied_to": "products"
+    },
+    {
+      "id": 2,
+      "valid_from": "2020-01-01T00:00:00",
+      "valid_to": "2025-11-19T22:59:59",
+      "slug": "spetjaz15",
+      "value": "15",
+      "type": "%",
+      "applied_to": "products"
+    },
+    {
+      "id": 3,
+      "valid_from": "2020-01-01T00:00:00",
+      "valid_to": "2025-11-19T22:59:59",
+      "slug": "helou15",
+      "value": "15",
+      "type": "%",
+      "applied_to": "products"
+    },
+    {
+      "id": 3,
+      "valid_from": "2020-12-05T13:00:00",
+      "valid_to": "2025-11-19T22:59:59",
+      "slug": "tiktok10",
+      "value": "10",
+      "type": "%",
+      "applied_to": "products"
+    }
+  ],
+  "delivery_dates": [
+    {
+      "title": "Ob prejemu plačila"
+    }
+  ]
 }
